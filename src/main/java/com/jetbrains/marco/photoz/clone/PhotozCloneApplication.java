@@ -10,7 +10,7 @@ public class PhotozCloneApplication {
 		SpringApplication.run(PhotozCloneApplication.class, args);
 		Photo photo = new Photo();
 		photo.setId(" 32 watts");
-		System.out.println("company product id=" + photo.getId());
+		System.out.println("my company product id=" + photo.getId());
 	}
 
 	public static String setId1() {
