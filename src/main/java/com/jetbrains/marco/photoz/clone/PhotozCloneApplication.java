@@ -14,8 +14,6 @@ public class PhotozCloneApplication {
 	}
 
 	public static String setId1() {
-
-
 		return null;
 	}
 }
