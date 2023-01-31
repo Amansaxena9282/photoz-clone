@@ -13,10 +13,6 @@ public class Photo {
         this.filename = filename;
     }
 
-//    public static String getName() {
-//    }
-
-//raw data
 
 
     public String getId() {

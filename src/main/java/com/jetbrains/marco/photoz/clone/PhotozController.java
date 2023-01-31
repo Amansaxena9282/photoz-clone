@@ -5,7 +5,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class PhotozController {
-//    private Map<String, photo> db= Collections.unmodifiableMap(new HashMap<>() {
+    public PhotozController() {
+    }
+
+    //    private Map<String, photo> db= Collections.unmodifiableMap(new HashMap<>() {
 //        {
 //            String id;
 //            put("1", new Photo(id:"1", fileName:"hello.jpg"));
